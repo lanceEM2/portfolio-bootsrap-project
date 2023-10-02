@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attachment 1</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+
+    <!--bootsrap forms-->
+    <section class="row">
+        <div class="col-md-2"></div>
+<div class="col-md-8">
+    <form action="">
+        <h3 class="text-danger">Registration Form</h3>
+            <div class="form-group">
+            <label class="form-label" for="formname">Name</label>
+            <input type="text" class="form-control" name="" id="inputname"
+            placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="formid">ID</label>
+            <input type="text" class="form-control" name="" id="id"
+            placeholder="Enter Your ID">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="formusername">Username</label>
+            <input type="text" class="form-control" name="" id="inputusername"
+            placeholder="Username">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="formEmail">Email</label>
+            <input type="email" class="form-control" name="" id="inputEmail"
+            placeholder="Enter Your Email">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="formpassword">Password</label>
+            <input type="password" class="form-control" name="" id="inputpassword"
+            placeholder="Enter Your Password">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="formconfirmpassword">Confirm password</label>
+            <input type="password" class="form-control" name="" id="password"
+            placeholder="Confirm password">
+        </div>
+        <div class="mb-3">
+            <div class="form-check">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label" id="checkRemember" for="checkboxRemember">Remember</label> <br> <br>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-danger">Submit</button>
+        </div>
+        </div>  
+
+    </form>
+</div>
+    </section>
+    <br><br>
+    <!--Bootsrap modals-->
+    <div class="modal fade" id="myModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Confirmation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    
+                </div>
+                <div class="modal-body">
+                    <p>You are about to submit your details. Do you want to continue?</p>
+                    <p class="text-danger"><small>If you click submit your details will be saved.</small></p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button data-bs-toggle="modal" type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
